@@ -1,0 +1,10 @@
+experiment_name: Exp1
+batch_size: 4
+max_epochs: 1000
+model_name: InceptionV3
+embedding_size: 128 #default to 128
+print_model_summary: false
+labels_flag: true
+loss_name: Arcface
+dataset_size: 8
+resolution: 299

@@ -1,0 +1,11 @@
+experiment_name: Exp1
+batch_size: 8
+max_epochs: 15
+model_name: InceptionV3
+embedding_size: 512 #default to 128
+print_model_summary: false
+labels_flag: true
+loss_name: Triplet
+dataset_size: full
+resolution: 299
+augmented: false

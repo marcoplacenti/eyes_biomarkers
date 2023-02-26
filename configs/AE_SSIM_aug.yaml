@@ -1,0 +1,11 @@
+experiment_name: Exp1
+batch_size: 4
+max_epochs: 20
+model_name: AE
+embedding_size: 128 #default to 4096
+print_model_summary: true
+labels_flag: false
+loss_name: SSIMLoss
+dataset_size: full
+resolution: 224
+augmented: true
